@@ -95,7 +95,8 @@ main {
       }
 
 .logo {
-  width: 200px;
+  width: 140px;
+  height: 120px;
   transition: all .2s ease-in-out;
 }
 
@@ -134,6 +135,7 @@ main {
 
 .menu-icon {
   height: 13px;
+  width: 13px;
   transition: all .2s ease-in-out;
 }
 
@@ -151,6 +153,7 @@ main {
 
 .corgi-images svg {
   height: 170px;
+  width:  170px;
 }
 
 .red .face {
