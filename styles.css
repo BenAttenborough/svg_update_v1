@@ -30,7 +30,7 @@ body {
   font-weight: 300;
   color: #111;
   background: url('svgs/background.svg') #edeff0;
-  background-size: 53px, 50px;
+  background-size: 53px 50px;
 }
 
 #container {
@@ -227,16 +227,25 @@ footer {
   color: #ba8058;
 }
 
-.logo-text-replacement {
+
+.logo .logo-text {
   display: none;
 }
+.logo-text-replacement {
+  display: block;
+  color: #EAAA7F;
+}
 
-@media (max-width: 420px) {
+/*Media Queries*/
+
+/*Tablet and above*/
+
+@media (min-width: 420px) {
   .logo .logo-text {
-    display: none;
-  }
-  .logo-text-replacement {
     display: block;
-    color: #EAAA7F;
+  }
+
+  .logo-text-replacement {
+    display: none;
   }
 }
